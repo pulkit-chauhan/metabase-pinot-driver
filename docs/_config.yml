@@ -1,0 +1,33 @@
+title: Metabase Pinot Driver
+description: Apache Pinot driver for Metabase — connect Metabase to Apache Pinot for data analysis and visualization.
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+url: https://startreedata.github.io
+baseurl: /metabase-pinot-driver
+
+aux_links:
+  "GitHub":
+    - "https://github.com/startreedata/metabase-pinot-driver"
+
+nav_sort: order
+
+color_scheme: light
+
+search_enabled: true
+
+heading_anchors: true
+
+footer_content: >-
+  Licensed under the <a href="https://github.com/startreedata/metabase-pinot-driver/blob/main/LICENSE">Apache License 2.0</a>.
+  Maintained by <a href="https://startree.ai">StarTree</a>.
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - Makefile
+  - package.json
+  - node_modules/
+  - drivers/
+  - scripts/
